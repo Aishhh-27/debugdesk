@@ -7,7 +7,8 @@
     "dev": "tsx watch src/index.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc",
-    "test": "node --import tsx --test test/app.test.ts"
+    "test": "node --import tsx --test test/app.test.ts",
+    "db:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.0",
